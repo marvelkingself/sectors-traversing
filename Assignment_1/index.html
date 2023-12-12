@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkbox Example</title>
+  <style>
+    label {
+      display: block;
+      margin-bottom: 3px;
+    }
+    #parentCheckbox{
+        font-weight: bold;
+    }
+    .comman{
+        margin-left: 25px;
+    }
+ 
+    .checkedall{
+        border: 1px solid black;
+        width:max-content;
+        padding:2%;
+    }
+    .btn{
+        margin-top: 5px;
+    }
+    .xyz{
+        margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+    <div class="checkedall">
+    <h2 class="head">Manage Permission</h2>
+    <hr >
+<div >
+    <select name="xyz" class="xyz" >
+        <option value="volvo">subsubndj</option>
+        <option value="saab">property</option>
+        
+      </select>
+  <label>
+    <input type="checkbox" id="parentCheckbox" > Property
+  </label>
+
+  <label>
+    <input type="checkbox" class="childCheckbox comman">Edit Property
+  </label>
+
+  <label>
+    <input type="checkbox" class="childCheckbox comman"> Remove Property
+  </label>
+
+  <label>
+    <input type="checkbox" class="childCheckbox comman"> Add Property
+  </label>
+
+  
+</div>
+<div >
+    
+    <label>
+      <input type="checkbox" id="parentCheckbox1" > Testimonial
+    </label>
+  
+    <label>
+      <input type="checkbox" class="childCheckbox1 comman"> Add
+    </label>
+  
+    <label>
+      <input type="checkbox" class="childCheckbox1 comman"> Remove
+    </label>
+  
+    <label>
+      <input type="checkbox" class="childCheckbox1 comman"> View
+    </label>
+  
+    <label>
+      <input type="checkbox" class="childCheckbox1 comman"> Edit
+    </label>
+  </div>
+  <div >
+    
+    <label>
+      <input type="checkbox" id="parentCheckbox2" > Users
+    </label>
+  
+    <label>
+      <input type="checkbox" class="childCheckbox2 comman"> Edit User
+    </label>
+  
+    <label>
+      <input type="checkbox" class="childCheckbox2 comman"> View User List
+    </label>
+  
+    <label>
+      <input type="checkbox" class="childCheckbox2 comman"> Add_User
+    </label>
+  
+    <label>
+      <input type="checkbox" class="childCheckbox2 comman"> Remove_User
+    </label>
+  </div>
+  <div >
+    
+    <label>
+      <input type="checkbox" id="parentCheckbox3" > Membership
+    </label>
+  
+    <label>
+      <input type="checkbox" class="childCheckbox3 comman"> Edit Membership
+    </label>
+  
+    <label>
+      <input type="checkbox" class="childCheckbox3 comman"> Remove
+    </label>
+  
+    <label>
+      <input type="checkbox" class="childCheckbox3 comman"> Child Checkbox 3
+    </label>
+  
+    <label>
+      <input type="checkbox" class="childCheckbox3 comman"> Child Checkbox 4
+    </label>
+  </div>
+  <button class="btn">Submit</button>
+</div>
+  <script src="jquery.js"></script>
+  <script src="index.js"></script>
+
+</body>
+</html>
