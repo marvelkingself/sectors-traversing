@@ -34,6 +34,7 @@
     margin-left: 10px;
    margin-bottom: 10px; 
    cursor: pointer;
+   color: rgb(55, 57, 58);
 }
 .inputs{
     margin-top: 10px;
@@ -42,5 +43,6 @@
 }
 
 .remove{
+    color: rgb(55, 57, 58);
     cursor: pointer;
 }
