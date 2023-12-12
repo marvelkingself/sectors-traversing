@@ -24,16 +24,16 @@ $(document).ready(function () {
       
         $(".childCheckbox1").prop("checked", $(this).prop("checked"));
     
-        updateParentCheckbox();
+        updateParentCheckbox1();
       });
     
       
       $(".childCheckbox1").click(function () {
-        updateParentCheckbox();
+        updateParentCheckbox1();
       });
     
-      
-      function updateParentCheckbox() {
+      1
+      function updateParentCheckbox1() {
         var allChecked = $(".childCheckbox1:checked").length === $(".childCheckbox1").length;
     
         
@@ -44,16 +44,16 @@ $(document).ready(function () {
       
         $(".childCheckbox2").prop("checked", $(this).prop("checked"));
     
-        updateParentCheckbox();
+        updateParentCheckbox2();
       });
     
       
       $(".childCheckbox2").click(function () {
-        updateParentCheckbox();
+        updateParentCheckbox2();
       });
     
       
-      function updateParentCheckbox() {
+      function updateParentCheckbox2() {
         var allChecked = $(".childCheckbox2:checked").length === $(".childCheckbox2").length;
     
         
@@ -64,16 +64,16 @@ $(document).ready(function () {
       
         $(".childCheckbox3").prop("checked", $(this).prop("checked"));
     
-        updateParentCheckbox();
+        updateParentCheckbox3();
       });
     
       
       $(".childCheckbox3").click(function () {
-        updateParentCheckbox();
+        updateParentCheckbox3();
       });
     
       
-      function updateParentCheckbox() {
+      function updateParentCheckbox3() {
         var allChecked = $(".childCheckbox3:checked").length === $(".childCheckbox3").length;
     
         
