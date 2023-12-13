@@ -1,46 +1,10 @@
-
-
-.main{
-    
-    width: 70%;
-    
-    
-}
-.image{
-    width: 25%;
-    /* height: 27.5vh; */
-    border: 1px solid black;
-    
-}
-.selectimg{
-    width: 75%;
-    
-
-}
-.line{
-    display: flex;
-    border: 1px solid black;
-}
-.add{
-    margin-top: 10px;
-    margin-left: 10px;
-   margin-bottom: 10px; 
-   cursor: pointer;
-   color: rgb(55, 57, 58);
-}
-.inputs{
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+.wid{
+    width: 30%;
+    padding: 0px;
+    margin: 0px;
 }
 
-.remove{
-    color: rgb(121, 121, 121);
-    cursor: pointer;
-}
-.smain{
-    
-    background-color: rgb(173, 171, 169);
-    height: 25px;
-    
+img{
+    height: 100px !important;
+    width: 100px !important;
 }
