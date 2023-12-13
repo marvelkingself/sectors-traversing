@@ -32,7 +32,7 @@ $(document).ready(function() {
     var newdata = `
     <div class=" mx-10 line border flex w-3/4 ">
     <div class=" border ">
-      <img he src="w-[]"  class="propertyImg" alt="property image " height="100px" width="100px">
+      <img he src="w-[]"  class="propertyImg" alt="No Img" height="100px" width="100px">
     </div>
     <div class="inputs mt-6  ">
         <div class="mt-2">
