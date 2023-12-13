@@ -1,5 +1,15 @@
 $(document).ready(function () {
-    
+ 
+  $(".xyz").on("change",()=>{
+    if($(".xyz").val()==="subsubndj"){
+      $("#allprop").addClass("hide")
+      
+    }else{
+      $("#allprop").removeClass("hide")
+    }
+  });
+  
+   
     $("#parentCheckbox").click(function () {
       
       $(".childCheckbox").prop("checked", $(this).prop("checked"));
